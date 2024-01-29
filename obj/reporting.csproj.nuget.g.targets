@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)system.text.json\8.0.0\buildTransitive\net6.0\System.Text.Json.targets" Condition="Exists('$(NuGetPackageRoot)system.text.json\8.0.0\buildTransitive\net6.0\System.Text.Json.targets')" />
+    <Import Project="$(NuGetPackageRoot)sqlitepclraw.lib.e_sqlite3\2.1.6\buildTransitive\net8.0\SQLitePCLRaw.lib.e_sqlite3.targets" Condition="Exists('$(NuGetPackageRoot)sqlitepclraw.lib.e_sqlite3\2.1.6\buildTransitive\net8.0\SQLitePCLRaw.lib.e_sqlite3.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.web.librarymanager.build\2.1.175\build\Microsoft.Web.LibraryManager.Build.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.web.librarymanager.build\2.1.175\build\Microsoft.Web.LibraryManager.Build.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.options\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Options.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.options\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Options.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Logging.Abstractions.targets')" />
+    <Import Project="C:\Program Files\DevExpress 23.2\Components\Offline Packages\devexpress.reporting.core\23.2.3\buildTransitive\DevExpress.Reporting.Core.targets" Condition="Exists('C:\Program Files\DevExpress 23.2\Components\Offline Packages\devexpress.reporting.core\23.2.3\buildTransitive\DevExpress.Reporting.Core.targets')" />
+    <Import Project="$(NuGetPackageRoot)buildbundlerminifier\3.2.449\build\BuildBundlerMinifier.targets" Condition="Exists('$(NuGetPackageRoot)buildbundlerminifier\3.2.449\build\BuildBundlerMinifier.targets')" />
+  </ImportGroup>
+</Project>
